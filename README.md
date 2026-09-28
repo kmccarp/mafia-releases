@@ -12,6 +12,12 @@ what the updater reads.
 3. Updates arrive through the app from then on, verified against the updater
    key baked into the build.
 
+## Windows
+
+There is no Windows binary here. A release advertises a source revision in
+`latest-windows-x86_64.json`, and a Windows Mafia with a `gh` login that can
+read the source builds it on the machine and updates itself with the result.
+
 ## What each release holds
 
 | File                          | Read by                                    |
